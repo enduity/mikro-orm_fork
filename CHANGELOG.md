@@ -3,6 +3,27 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [7.0.9](https://github.com/mikro-orm/mikro-orm/compare/v7.0.8...v7.0.9) (2026-04-06)
+
+
+### Bug Fixes
+
+* **core:** escape special characters in base Platform array marshalling ([#7489](https://github.com/mikro-orm/mikro-orm/issues/7489)) ([9bc798f](https://github.com/mikro-orm/mikro-orm/commit/9bc798fedf9aeb8e5ed42aea30a1edeaa26f2c15)), closes [#7488](https://github.com/mikro-orm/mikro-orm/issues/7488)
+* **core:** include generated columns in mergeData diff for identity map reuse ([#7491](https://github.com/mikro-orm/mikro-orm/issues/7491)) ([97fd5c6](https://github.com/mikro-orm/mikro-orm/commit/97fd5c6dbc449893628245026772822e40f4802e)), closes [#7421](https://github.com/mikro-orm/mikro-orm/issues/7421) [#7486](https://github.com/mikro-orm/mikro-orm/issues/7486)
+* **core:** resolve EntityIdentifier in composite FK with shared join columns ([#7477](https://github.com/mikro-orm/mikro-orm/issues/7477)) ([cb44ba0](https://github.com/mikro-orm/mikro-orm/commit/cb44ba007a75171878bfc59eb899ab395e1119ed))
+* **core:** respect compiledFunctions in driver's EntityComparator ([#7494](https://github.com/mikro-orm/mikro-orm/issues/7494)) ([d2c5cce](https://github.com/mikro-orm/mikro-orm/commit/d2c5cceacc029bb2bed7bb4c163ada4713c92c99))
+* **core:** skip shared join columns with null value in mapDataToFieldNames ([#7490](https://github.com/mikro-orm/mikro-orm/issues/7490)) ([f6b4273](https://github.com/mikro-orm/mikro-orm/commit/f6b4273c49a5c3e4998012ddcd14377423ee6217))
+* **core:** use symbol brand in CollectionShape to prevent false structural matches ([#7473](https://github.com/mikro-orm/mikro-orm/issues/7473)) ([c9e93e4](https://github.com/mikro-orm/mikro-orm/commit/c9e93e47495ed9f991423bde8adf8b63f11432e5)), closes [#7470](https://github.com/mikro-orm/mikro-orm/issues/7470)
+* **migrations:** skip database connection in checkSchema() when snapshot exists ([#7493](https://github.com/mikro-orm/mikro-orm/issues/7493)) ([2bcde16](https://github.com/mikro-orm/mikro-orm/commit/2bcde166777a8856b7ff0088a61f4e2660dbde28))
+* **sql:** fix null composite FK producing `undefined` column values in `nativeInsertMany` ([#7476](https://github.com/mikro-orm/mikro-orm/issues/7476)) ([7043886](https://github.com/mikro-orm/mikro-orm/commit/7043886ff95287eb8359a3f0a1ce24b1a4353417)), closes [#7475](https://github.com/mikro-orm/mikro-orm/issues/7475)
+* **sql:** fix populate of 1:1 on TPT leaf entity with joined strategy ([#7474](https://github.com/mikro-orm/mikro-orm/issues/7474)) ([053881c](https://github.com/mikro-orm/mikro-orm/commit/053881cf6a3fdaffd8ac7af7cc8ab58115e6604e)), closes [#7469](https://github.com/mikro-orm/mikro-orm/issues/7469)
+* **sql:** skip relation props without fieldNames in TPT column mapping ([#7472](https://github.com/mikro-orm/mikro-orm/issues/7472)) ([b63d6ba](https://github.com/mikro-orm/mikro-orm/commit/b63d6ba72841a31390569a4eb193b8558c85e071)), closes [#7471](https://github.com/mikro-orm/mikro-orm/issues/7471)
+* **sql:** use composite unique constraint for OneToOne on STI entities ([#7480](https://github.com/mikro-orm/mikro-orm/issues/7480)) ([cef70b9](https://github.com/mikro-orm/mikro-orm/commit/cef70b9f865e5ea93cf65e6cfbbdea0579085e32)), closes [#7479](https://github.com/mikro-orm/mikro-orm/issues/7479)
+
+
+
+
+
 ## [7.0.8](https://github.com/mikro-orm/mikro-orm/compare/v7.0.7...v7.0.8) (2026-04-01)
 
 

@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [7.0.9](https://github.com/mikro-orm/mikro-orm/compare/v7.0.8...v7.0.9) (2026-04-06)
+
+
+### Bug Fixes
+
+* **migrations:** skip database connection in checkSchema() when snapshot exists ([#7493](https://github.com/mikro-orm/mikro-orm/issues/7493)) ([2bcde16](https://github.com/mikro-orm/mikro-orm/commit/2bcde166777a8856b7ff0088a61f4e2660dbde28))
+
+
+
+
+
 ## [7.0.8](https://github.com/mikro-orm/mikro-orm/compare/v7.0.7...v7.0.8) (2026-04-01)
 
 **Note:** Version bump only for package @mikro-orm/migrations
