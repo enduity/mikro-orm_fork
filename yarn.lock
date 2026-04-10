@@ -1348,7 +1348,7 @@ __metadata:
     "@mikro-orm/core": "npm:^7.0.9"
     "@mikro-orm/sql": "npm:7.0.9"
     kysely: "npm:0.28.15"
-    mysql2: "npm:3.21.0"
+    mysql2: "npm:3.21.1"
     sqlstring: "npm:2.3.3"
   peerDependencies:
     "@mikro-orm/core": 7.0.9
@@ -7230,9 +7230,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mysql2@npm:3.21.0":
-  version: 3.21.0
-  resolution: "mysql2@npm:3.21.0"
+"mysql2@npm:3.21.1":
+  version: 3.21.1
+  resolution: "mysql2@npm:3.21.1"
   dependencies:
     aws-ssl-profiles: "npm:^1.1.2"
     denque: "npm:^2.1.0"
@@ -7244,7 +7244,7 @@ __metadata:
     sql-escaper: "npm:^1.3.3"
   peerDependencies:
     "@types/node": ">= 8"
-  checksum: 10/24371d55c347b540d6db14bb9cce250a3a462ca4f39ea366dc09e3db8b9df76925a2f2d410bd0994887f62f2b63f8c886e37ceeea2c966594c4772c191d2dbf9
+  checksum: 10/d707890f041f015274e19b13ec2c6454392aa6f4c01728ffcebd435f2a6f0e9765b23c1cb2641176b2b3498426c37992cbbc3f9d86605774a2df04f42ed7b4ea
   languageName: node
   linkType: hard
 
