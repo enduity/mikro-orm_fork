@@ -3,6 +3,30 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [7.0.10](https://github.com/mikro-orm/mikro-orm/compare/v7.0.9...v7.0.10) (2026-04-10)
+
+
+### Bug Fixes
+
+* **core:** avoid forwarding `cwd: undefined` to tinyglobby ([#7510](https://github.com/mikro-orm/mikro-orm/issues/7510)) ([6a134f4](https://github.com/mikro-orm/mikro-orm/commit/6a134f4c2b19222d1afc46f0abdb0abf88b7d90b)), closes [#7509](https://github.com/mikro-orm/mikro-orm/issues/7509)
+* **core:** brand raw query fragments via prototype property ([#7519](https://github.com/mikro-orm/mikro-orm/issues/7519)) ([f596bdd](https://github.com/mikro-orm/mikro-orm/commit/f596bdd77f6de6edd2c27c5a293af8c6cf0f2b9f)), closes [#7518](https://github.com/mikro-orm/mikro-orm/issues/7518)
+* **core:** emit enum check constraints for embedded enum properties ([#7526](https://github.com/mikro-orm/mikro-orm/issues/7526)) ([6f52ad1](https://github.com/mikro-orm/mikro-orm/commit/6f52ad1795a5d27254fcd6605683f9fb90748117))
+* **core:** guard user-defined prototype getters against deep-clone walkers ([#7508](https://github.com/mikro-orm/mikro-orm/issues/7508)) ([83254db](https://github.com/mikro-orm/mikro-orm/commit/83254db77dd63c8bdc80025833abea5ef3dec5a4)), closes [#7151](https://github.com/mikro-orm/mikro-orm/issues/7151)
+* **core:** populate TPT child-specific relations when entity is already in identity map ([#7536](https://github.com/mikro-orm/mikro-orm/issues/7536)) ([8fa3ac2](https://github.com/mikro-orm/mikro-orm/commit/8fa3ac277e0c471913a04eac9cbb4000ebce0d48)), closes [#7529](https://github.com/mikro-orm/mikro-orm/issues/7529)
+* **core:** skip composite PK inlining when operator value is an array ([#7524](https://github.com/mikro-orm/mikro-orm/issues/7524)) ([b0ccf51](https://github.com/mikro-orm/mikro-orm/commit/b0ccf518f2a22bf7687ce3bbb898b6ad1ce69184))
+* **core:** skip inverse collections when deduplicating ownColumns ([#7504](https://github.com/mikro-orm/mikro-orm/issues/7504)) ([40b2760](https://github.com/mikro-orm/mikro-orm/commit/40b27603799c3d7b4f7d083f170f338563dcf057)), closes [#7490](https://github.com/mikro-orm/mikro-orm/issues/7490)
+* **core:** skip namespace-merged functions in `extractEnumValues` ([a08e685](https://github.com/mikro-orm/mikro-orm/commit/a08e68526e80404618127f433fc2fcb552fb495a)), closes [#7500](https://github.com/mikro-orm/mikro-orm/issues/7500)
+* **core:** skip overwriting loaded entities with uninitialized references during transaction merge ([#7531](https://github.com/mikro-orm/mikro-orm/issues/7531)) ([25214f2](https://github.com/mikro-orm/mikro-orm/commit/25214f2a35bab49ebecc430d47d92f02910fcb7b)), closes [#7528](https://github.com/mikro-orm/mikro-orm/issues/7528)
+* **core:** use change set meta in commit order to fix cross-ORM flush ([#7513](https://github.com/mikro-orm/mikro-orm/issues/7513)) ([02303e8](https://github.com/mikro-orm/mikro-orm/commit/02303e826485b0358956300a43389ca3c728c1a0)), closes [#7511](https://github.com/mikro-orm/mikro-orm/issues/7511)
+* **core:** use globally registered entity marker symbol ([#7518](https://github.com/mikro-orm/mikro-orm/issues/7518)) ([294ed5f](https://github.com/mikro-orm/mikro-orm/commit/294ed5f7cf58ae35b9594d1024b17f2286d53693)), closes [#7515](https://github.com/mikro-orm/mikro-orm/issues/7515)
+* **core:** use globally registered symbols for Reference/Collection markers ([#7535](https://github.com/mikro-orm/mikro-orm/issues/7535)) ([47e5d9f](https://github.com/mikro-orm/mikro-orm/commit/47e5d9f2754a01c30da5ad83052ead17541a616f)), closes [#7515](https://github.com/mikro-orm/mikro-orm/issues/7515) [#7515](https://github.com/mikro-orm/mikro-orm/issues/7515) [#7534](https://github.com/mikro-orm/mikro-orm/issues/7534)
+* **sql:** allow joining relations on entity-typed CTE in `from()` ([#7523](https://github.com/mikro-orm/mikro-orm/issues/7523)) ([514fb4e](https://github.com/mikro-orm/mikro-orm/commit/514fb4ed52dde2db3815c64f4dcdd0229f762fce)), closes [mikro-orm/mikro-orm#7485](https://github.com/mikro-orm/mikro-orm/issues/7485)
+* **sql:** skip redundant mapResult in QB when row is already mapped ([#7533](https://github.com/mikro-orm/mikro-orm/issues/7533)) ([1e654a9](https://github.com/mikro-orm/mikro-orm/commit/1e654a9ec5642ed172bb7bb6142bd0c8963d7b1d)), closes [#7527](https://github.com/mikro-orm/mikro-orm/issues/7527)
+
+
+
+
+
 ## [7.0.9](https://github.com/mikro-orm/mikro-orm/compare/v7.0.8...v7.0.9) (2026-04-06)
 
 
