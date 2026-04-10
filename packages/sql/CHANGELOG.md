@@ -5,16 +5,11 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [7.0.10](https://github.com/mikro-orm/mikro-orm/compare/v7.0.9...v7.0.10) (2026-04-10)
 
-
 ### Bug Fixes
 
-* **core:** brand raw query fragments via prototype property ([#7519](https://github.com/mikro-orm/mikro-orm/issues/7519)) ([f596bdd](https://github.com/mikro-orm/mikro-orm/commit/f596bdd77f6de6edd2c27c5a293af8c6cf0f2b9f)), closes [#7518](https://github.com/mikro-orm/mikro-orm/issues/7518)
-* **sql:** allow joining relations on entity-typed CTE in `from()` ([#7523](https://github.com/mikro-orm/mikro-orm/issues/7523)) ([514fb4e](https://github.com/mikro-orm/mikro-orm/commit/514fb4ed52dde2db3815c64f4dcdd0229f762fce)), closes [mikro-orm/mikro-orm#7485](https://github.com/mikro-orm/mikro-orm/issues/7485)
-* **sql:** skip redundant mapResult in QB when row is already mapped ([#7533](https://github.com/mikro-orm/mikro-orm/issues/7533)) ([1e654a9](https://github.com/mikro-orm/mikro-orm/commit/1e654a9ec5642ed172bb7bb6142bd0c8963d7b1d)), closes [#7527](https://github.com/mikro-orm/mikro-orm/issues/7527)
-
-
-
-
+- **core:** brand raw query fragments via prototype property ([#7519](https://github.com/mikro-orm/mikro-orm/issues/7519)) ([f596bdd](https://github.com/mikro-orm/mikro-orm/commit/f596bdd77f6de6edd2c27c5a293af8c6cf0f2b9f)), closes [#7518](https://github.com/mikro-orm/mikro-orm/issues/7518)
+- **sql:** allow joining relations on entity-typed CTE in `from()` ([#7523](https://github.com/mikro-orm/mikro-orm/issues/7523)) ([514fb4e](https://github.com/mikro-orm/mikro-orm/commit/514fb4ed52dde2db3815c64f4dcdd0229f762fce)), closes [mikro-orm/mikro-orm#7485](https://github.com/mikro-orm/mikro-orm/issues/7485)
+- **sql:** skip redundant mapResult in QB when row is already mapped ([#7533](https://github.com/mikro-orm/mikro-orm/issues/7533)) ([1e654a9](https://github.com/mikro-orm/mikro-orm/commit/1e654a9ec5642ed172bb7bb6142bd0c8963d7b1d)), closes [#7527](https://github.com/mikro-orm/mikro-orm/issues/7527)
 
 ## [7.0.9](https://github.com/mikro-orm/mikro-orm/compare/v7.0.8...v7.0.9) (2026-04-06)
 
