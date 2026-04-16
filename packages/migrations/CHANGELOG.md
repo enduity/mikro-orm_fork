@@ -5,14 +5,9 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [7.0.11](https://github.com/mikro-orm/mikro-orm/compare/v7.0.10...v7.0.11) (2026-04-16)
 
-
 ### Bug Fixes
 
-* **migrations:** skip database connection in `create()` and `getPending()` when snapshot exists ([#7568](https://github.com/mikro-orm/mikro-orm/issues/7568)) ([4bf6ed5](https://github.com/mikro-orm/mikro-orm/commit/4bf6ed55f2c49e78a1d3b710852bf345829eaac3)), closes [#7493](https://github.com/mikro-orm/mikro-orm/issues/7493) [/github.com/mikro-orm/mikro-orm/discussions/7481#discussioncomment-16538274](https://github.com//github.com/mikro-orm/mikro-orm/discussions/7481/issues/discussioncomment-16538274)
-
-
-
-
+- **migrations:** skip database connection in `create()` and `getPending()` when snapshot exists ([#7568](https://github.com/mikro-orm/mikro-orm/issues/7568)) ([4bf6ed5](https://github.com/mikro-orm/mikro-orm/commit/4bf6ed55f2c49e78a1d3b710852bf345829eaac3)), closes [#7493](https://github.com/mikro-orm/mikro-orm/issues/7493) [/github.com/mikro-orm/mikro-orm/discussions/7481#discussioncomment-16538274](https://github.com//github.com/mikro-orm/mikro-orm/discussions/7481/issues/discussioncomment-16538274)
 
 ## [7.0.10](https://github.com/mikro-orm/mikro-orm/compare/v7.0.9...v7.0.10) (2026-04-10)
 
