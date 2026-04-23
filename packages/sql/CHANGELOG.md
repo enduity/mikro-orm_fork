@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [7.0.12](https://github.com/mikro-orm/mikro-orm/compare/v7.0.11...v7.0.12) (2026-04-23)
+
+
+### Bug Fixes
+
+* **core:** expand polymorphic entity refs in where filters ([#7579](https://github.com/mikro-orm/mikro-orm/issues/7579)) ([32a0f08](https://github.com/mikro-orm/mikro-orm/commit/32a0f08dc8d9c93e1e544a391292462b347fa6c3)), closes [#7578](https://github.com/mikro-orm/mikro-orm/issues/7578)
+* **postgres:** schema-qualify generated `drop index` statements ([#7603](https://github.com/mikro-orm/mikro-orm/issues/7603)) ([c32bbd6](https://github.com/mikro-orm/mikro-orm/commit/c32bbd625f83cdea244a7ab1497a7f4527a04bb0))
+* **sql:** forward ignoreBranch options for M2M pivot alias resolution ([#7591](https://github.com/mikro-orm/mikro-orm/issues/7591)) ([0cb4895](https://github.com/mikro-orm/mikro-orm/commit/0cb48955952aa481fe2fb78b31d348be595de149)), closes [#7590](https://github.com/mikro-orm/mikro-orm/issues/7590)
+
+
+
+
+
 ## [7.0.11](https://github.com/mikro-orm/mikro-orm/compare/v7.0.10...v7.0.11) (2026-04-16)
 
 ### Bug Fixes

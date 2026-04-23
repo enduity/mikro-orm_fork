@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [7.0.12](https://github.com/mikro-orm/mikro-orm/compare/v7.0.11...v7.0.12) (2026-04-23)
+
+
+### Bug Fixes
+
+* **core:** avoid crash on STI subclass @ManyToOne override targeting same hierarchy ([#7599](https://github.com/mikro-orm/mikro-orm/issues/7599)) ([eeebf6f](https://github.com/mikro-orm/mikro-orm/commit/eeebf6fabe46551a8d437eb95742215a2d079eb9)), closes [#7598](https://github.com/mikro-orm/mikro-orm/issues/7598)
+* **core:** expand polymorphic entity refs in where filters ([#7579](https://github.com/mikro-orm/mikro-orm/issues/7579)) ([32a0f08](https://github.com/mikro-orm/mikro-orm/commit/32a0f08dc8d9c93e1e544a391292462b347fa6c3)), closes [#7578](https://github.com/mikro-orm/mikro-orm/issues/7578)
+* **core:** expand polymorphic entity refs inside scalar operators ([#7581](https://github.com/mikro-orm/mikro-orm/issues/7581)) ([1027e90](https://github.com/mikro-orm/mikro-orm/commit/1027e90f75253ed57e3185a7dfd9a37fd99d8e50)), closes [#7579](https://github.com/mikro-orm/mikro-orm/issues/7579) [#7578](https://github.com/mikro-orm/mikro-orm/issues/7578)
+* **core:** skip getter-only properties in assignDefaultValues ([#7575](https://github.com/mikro-orm/mikro-orm/issues/7575)) ([0251777](https://github.com/mikro-orm/mikro-orm/commit/0251777f63e19f7b487de5f8922e4dde6340f827)), closes [#7574](https://github.com/mikro-orm/mikro-orm/issues/7574)
+
+
+
+
+
 ## [7.0.11](https://github.com/mikro-orm/mikro-orm/compare/v7.0.10...v7.0.11) (2026-04-16)
 
 ### Bug Fixes
