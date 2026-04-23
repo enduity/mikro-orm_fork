@@ -5,14 +5,9 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [7.0.12](https://github.com/mikro-orm/mikro-orm/compare/v7.0.11...v7.0.12) (2026-04-23)
 
-
 ### Bug Fixes
 
-* **mysql:** resolve password callback per-connection for short-lived tokens ([#7577](https://github.com/mikro-orm/mikro-orm/issues/7577)) ([9b9fe2d](https://github.com/mikro-orm/mikro-orm/commit/9b9fe2d2781a0177129e995a4ab433b9b00a5dd1)), closes [#7576](https://github.com/mikro-orm/mikro-orm/issues/7576)
-
-
-
-
+- **mysql:** resolve password callback per-connection for short-lived tokens ([#7577](https://github.com/mikro-orm/mikro-orm/issues/7577)) ([9b9fe2d](https://github.com/mikro-orm/mikro-orm/commit/9b9fe2d2781a0177129e995a4ab433b9b00a5dd1)), closes [#7576](https://github.com/mikro-orm/mikro-orm/issues/7576)
 
 ## [7.0.11](https://github.com/mikro-orm/mikro-orm/compare/v7.0.10...v7.0.11) (2026-04-16)
 

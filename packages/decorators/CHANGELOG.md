@@ -5,14 +5,9 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [7.0.12](https://github.com/mikro-orm/mikro-orm/compare/v7.0.11...v7.0.12) (2026-04-23)
 
-
 ### Bug Fixes
 
-* **core:** recognize TypeScript's `__esDecorate` helper in decorator path lookup ([#7584](https://github.com/mikro-orm/mikro-orm/issues/7584)) ([ad9c86a](https://github.com/mikro-orm/mikro-orm/commit/ad9c86a20f03a0fdc74c0d64bc485f7f77c1e2da)), closes [#7583](https://github.com/mikro-orm/mikro-orm/issues/7583)
-
-
-
-
+- **core:** recognize TypeScript's `__esDecorate` helper in decorator path lookup ([#7584](https://github.com/mikro-orm/mikro-orm/issues/7584)) ([ad9c86a](https://github.com/mikro-orm/mikro-orm/commit/ad9c86a20f03a0fdc74c0d64bc485f7f77c1e2da)), closes [#7583](https://github.com/mikro-orm/mikro-orm/issues/7583)
 
 ## [7.0.11](https://github.com/mikro-orm/mikro-orm/compare/v7.0.10...v7.0.11) (2026-04-16)
 
